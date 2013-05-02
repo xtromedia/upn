@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|ie-css3\.htc|robots\.txt|assets|photo)
+RewriteRule ^(.*)$ /undiknas/index.php/$1 [L]
+	
